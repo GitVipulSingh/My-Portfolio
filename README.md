@@ -1,78 +1,78 @@
-# Modern Portfolio Website
+# Vipul Singh - Portfolio Website
 
-A clean, responsive, and modern portfolio website built with HTML, CSS, and JavaScript.
+A modern, responsive portfolio website showcasing my skills as a Full Stack Developer.
 
-## Features
+## 🚀 Features
 
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Modern UI/UX**: Clean design with smooth animations and transitions
-- **Interactive Elements**: Hover effects, smooth scrolling, and dynamic navigation
-- **Contact Form**: Functional contact form with validation
-- **Performance Optimized**: Fast loading with optimized assets
-- **Cross-browser Compatible**: Works on all modern browsers
+- **Responsive Design**: Works perfectly on all devices
+- **Modern UI/UX**: Clean and professional design
+- **Interactive Elements**: Smooth animations and hover effects
+- **Contact Form**: Functional contact form with EmailJS integration
+- **Fast Loading**: Optimized for performance
 
-## Sections
+## 🛠️ Technologies Used
 
-1. **Hero Section**: Eye-catching introduction with call-to-action buttons
-2. **About**: Personal information and statistics
-3. **Skills**: Technical skills organized by categories
-4. **Projects**: Featured projects with descriptions and tech stacks
-5. **Contact**: Contact form and social media links
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Styling**: Custom CSS with Flexbox and Grid
+- **Icons**: Font Awesome
+- **Fonts**: Google Fonts (Inter)
+- **Email Service**: EmailJS
+- **Deployment**: Vercel / Render
 
-## Customization
-
-### Personal Information
-Replace the placeholder content in `index.html`:
-- `[Your Name]` - Your actual name
-- `[your.email@example.com]` - Your email address
-- `[+1 (555) 123-4567]` - Your phone number
-- `[Your City, Country]` - Your location
-- Update the profile image URL in the hero section
-- Add your social media links
-
-### Projects
-Update the projects section with your actual projects:
-- Replace placeholder images with screenshots of your projects
-- Update project titles, descriptions, and tech stacks
-- Add links to live demos and GitHub repositories
-
-### Skills
-Modify the skills section to reflect your actual technical skills:
-- Update the skill categories (Frontend, Backend, Tools & Others)
-- Add or remove skill items as needed
-- Customize the color scheme if desired
-
-### Styling
-The website uses CSS custom properties for easy theming. Main colors can be changed in the CSS file:
-- Primary gradient: `#667eea` to `#764ba2`
-- Accent color: `#f093fb`
-- Text colors and backgrounds can be customized throughout the stylesheet
-
-## File Structure
+## 📁 Project Structure
 
 ```
-portfolio/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles
 ├── script.js           # JavaScript functionality
-└── README.md          # This file
+├── vipul-profile.jpg   # Profile image
+├── vercel.json         # Vercel deployment config
+├── package.json        # Project dependencies
+└── README.md           # Project documentation
 ```
 
-## Getting Started
+## 🚀 Quick Start
 
-1. Clone or download the files
-2. Customize the content with your personal information
-3. Replace placeholder images with your actual photos/screenshots
-4. Update social media and project links
-5. Open `index.html` in a web browser or deploy to your hosting service
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Or serve locally: `npx serve .`
 
-## Browser Support
+## 📧 Contact Form Setup
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+The contact form uses EmailJS. To set it up:
 
-## License
+1. Create an account at [EmailJS](https://www.emailjs.com/)
+2. Update the credentials in `script.js`:
+   - `serviceID`
+   - `templateID`
+   - `publicKey`
 
-This project is open source and available under the MIT License.
+## 🌐 Live Demo
+
+- **Vercel**: [Your Vercel URL]
+- **Render**: [Your Render URL]
+
+## 📱 Responsive Breakpoints
+
+- Desktop: 1200px+
+- Tablet: 768px - 1199px
+- Mobile: 320px - 767px
+
+## 🎨 Color Palette
+
+- Primary: #667eea
+- Secondary: #764ba2
+- Accent: #f093fb
+- Text: #333333
+- Background: #ffffff
+
+## 📄 License
+
+MIT License - feel free to use this project for your own portfolio!
+
+---
+
+**Vipul Singh** - Full Stack Developer  
+📧 vipulsinghoffice@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/vipul-singh-98471a249/)  
+🐙 [GitHub](https://github.com/GitVipulSingh)

@@ -1,0 +1,17 @@
+{
+  "name": "vipul-singh-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website of Vipul Singh - Full Stack Developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "build": "echo 'Static site - no build needed'",
+    "dev": "serve -s . -l 3000"
+  },
+  "keywords": ["portfolio", "web-development", "full-stack", "react", "node.js"],
+  "author": "Vipul Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
